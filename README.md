@@ -27,3 +27,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Practical Time
+https://www.craft.do/s/y3uQ70flzbDt3X
