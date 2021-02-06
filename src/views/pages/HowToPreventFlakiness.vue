@@ -37,6 +37,11 @@
 <p>theActorCalled("Mary").should(eventually(seeThat(the(LoginPage.signInButton), isVisible())).waitingForNoLongerThan(30).seconds());
       </p>
 <p>This will not fail if the matcher cannot be evaluated the first time, but will retry up to a maximum of 'serenity.timouts' seconds (5 by default).</p>
+  
+   <p class=subHeadingColor>Using the Awaitility framework</p>
+   <p>await("Element did not show foo.").atMost(60,TimeUnit.SECONDS)
+   .until(() -> driver.findElement(By.id("some-element").getText().contains("foo"));</p>
+
   </div>
 </template>
 
@@ -64,5 +69,10 @@ export default {
 }
 .textColor {
    color: blue;
+}
+.subHeadingColor {
+  color: red;
+  font-size: 20px;
+   text-decoration: underline overline;
 }
 </style>
