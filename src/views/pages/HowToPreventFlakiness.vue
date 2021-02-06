@@ -34,7 +34,9 @@
     <p class="left">
       Reference: <a href="https://groups.google.com/g/thucydides-users/c/zxvX6TZCbNs?pli=1" target="_blank">https://groups.google.com/g/thucydides-users/c/zxvX6TZCbNs?pli=1
 </a>
-    </p>
+<p>theActorCalled("Mary").should(eventually(seeThat(the(LoginPage.signInButton), isVisible())).waitingForNoLongerThan(30).seconds());
+      </p>
+<p>This will not fail if the matcher cannot be evaluated the first time, but will retry up to a maximum of 'serenity.timouts' seconds (5 by default).</p>
   </div>
 </template>
 
