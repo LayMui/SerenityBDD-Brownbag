@@ -40,7 +40,7 @@
 <p>This will not fail if the matcher cannot be evaluated the first time, but will retry up to a maximum of 'serenity.timouts' seconds (5 by default).</p>
   
    <p class=subHeadingColor>Using the Awaitility framework</p>
-   <p>More elegant to put sleep in your code, Used in integration testing
+   <p>More elegant than to put sleep in your code, Used in integration testing
 </p>
    <p> Awaitility.with().pollInSameThread().await().atMost(60,TimeUnit.SECONDS).untilAsserted(
             () -> theActorCalled("Mary").should(eventually(seeThat(the(LoginPage.signInButton), isVisible()))));
