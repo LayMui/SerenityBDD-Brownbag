@@ -12,6 +12,7 @@ import TestRunner from './TestRunner'
 import BeforeImplementation from './BeforeImplementation.vue'
 import HowToPreventFlakiness from './HowToPreventFlakiness.vue'
 import StepDefinitions from './StepDefinitions.vue'
+import SerenityRest from './SerenityRest'
 
 const pages = [
   {
@@ -111,6 +112,13 @@ const pages = [
       title: 'How to make step definitions make readable using DSL'
     }, 
     component: StepDefinitions
+  },
+  {
+    name: 'SerenityRest',
+    meta: {
+      title: 'A simple project on SerenityRest'
+    }, 
+    component: SerenityRest
   },
 ]
 
