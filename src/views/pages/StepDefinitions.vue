@@ -22,6 +22,8 @@
     <img src="../../assets/image/enterlogindetails-code-snippet.png"/>
     <p class="header2Text">Lean PageObject class: </p>
     <img src="../../assets/image/pageobject-code-snippet.png"/>
+    <p class="header2Text">Example: </p>
+    <img src="../../assets/image/how-to-make-stepdef-DSL.jpeg"/>
   </div>
     
         </div>
