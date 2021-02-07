@@ -16,7 +16,11 @@
         </div>
       </div>
     </div>
-    
+
+   <p class="left">
+      Reference: <a href="https://janmolak.com/serenity-bdd-and-the-screenplay-pattern-27819d0db780" target="_blank">https://janmolak.com/serenity-bdd-and-the-screenplay-pattern-27819d0db780
+</a>
+</p> 
   </div>
 </template>
 
