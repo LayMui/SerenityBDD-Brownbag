@@ -45,6 +45,8 @@
    <p> Awaitility.with().pollInSameThread().await().atMost(60,TimeUnit.SECONDS).untilAsserted(
             () -> theActorCalled("Mary").should(eventually(seeThat(the(LoginPage.signInButton), isVisible()))));
        </p>
+       <p>You may increase the timeout</p>
+       <p>Awaitility.with().pollInSameThread().await().atMost(3, TimeUnit.MINUTES).untilAsserted(() -> assertThat(SerenityRest.lastResponse().getStatusCode(), CoreMatchers.is(200)));</p>
 <p>Why thread.sleep is not recommended</p>
        <p class="left">
       Reference: <a href="https://automationtalks.com/2017/06/12/why-not-to-use-threadsleep-to-achieve/
