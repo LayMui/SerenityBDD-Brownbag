@@ -39,7 +39,8 @@ export default {
             'Use narrative approach or Actor centric approach',
             'Actor – people who interact with the system or cause things to happen and observe the result',
             'An actor called it a name James',
-            'An actor has abilities: James can browse the web'
+            'An actor has abilities: James can browse the web',
+            'The real beauty of the screenplay pattern is it allows you to split the WHAT from the HOW at multiple levels'
           ]
         },
         
