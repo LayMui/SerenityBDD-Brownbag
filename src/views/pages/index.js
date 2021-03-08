@@ -1,18 +1,21 @@
-import SerenityBDD from './SerenityBDD'
-import FirstStep from './FirstStep'
+import SerenityBDD from './SerenityBDD.vue'
+import FirstStep from './FirstStep.vue'
 import Prerequisites from './Prerequisites'
 import ScreenplayPattern from './ScreenplayPattern'
 import SolidDesignPattern  from './SolidDesignPattern'
 import PurposeOfSolidDesignPattern from './PurposeOfSolidDesignPattern'
 import BuildingBlockOfScreenplayPattern from './BuildingBlockOfScreenplayPattern'
-import StepAnnotation from './StepAnnotation'
-import Dependencies from './Dependencies'
-import SerenityConf from './SerenityConf'
-import TestRunner from './TestRunner'
+import StepAnnotation from './StepAnnotation.vue'
+import Dependencies from './Dependencies.vue'
+import SerenityConf from './SerenityConf.vue'
+import TestRunner from './TestRunner.vue'
 import BeforeImplementation from './BeforeImplementation.vue'
 import HowToPreventFlakiness from './HowToPreventFlakiness.vue'
 import StepDefinitions from './StepDefinitions.vue'
-import SerenityRest from './SerenityRest'
+import LeanPageObject from './LeanPageObject.vue'
+import Task from './Task.vue'
+import Question from './Question.vue'
+import SerenityRest from './SerenityRest.vue'
 
 const pages = [
   {
@@ -112,6 +115,27 @@ const pages = [
       title: 'How to make step definitions make readable using DSL'
     }, 
     component: StepDefinitions
+  },
+  {
+    name: 'Lean PageObject',
+    meta: {
+      title: 'Improved version of classic page object pattern'
+    }, 
+    component: LeanPageObject
+  },
+  {
+    name: 'Tasks',
+    meta: {
+      title: 'How to implement Task class'
+    }, 
+    component: Task
+  },
+  {
+    name: 'Question',
+    meta: {
+      title: 'How to implement Question class'
+    }, 
+    component: Question
   },
   {
     name: 'SerenityRest',
